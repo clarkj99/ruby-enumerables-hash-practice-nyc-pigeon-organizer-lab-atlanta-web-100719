@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-new_hash = ata.reduce({}) do |name_hash, (key1, value1)|
+new_hash = data.reduce({}) do |name_hash, (key1, value1)|
   value1.reduce(name_hash) do |key_hash, (key2, value2)|
     value2.reduce(key_hash) do |threehash, name|
       if threehash[name]!= nil
